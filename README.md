@@ -25,6 +25,7 @@ PS4 FTP Fast is a high-performance Windows x64 (.NET 10) systems tool engineered
 | **PS4 FTP Fast Setup** *(Recommended)* | GUI Installer (No Admin UAC, shortcuts, `.pkg` menu, browser bridge) | `1.01 MB` (`1,037,976 B`) | [Download Setup `.exe`](releases/v1.5.0/PS4-FTP-Fast-Setup-v1.5.0.exe?raw=true) | `E937D8536922F525A8A6462531D2E6F1774918CF44C662A4A3A836217546DEE5` |
 | **PS4 FTP Fast Portable** | Standalone Single-File Executable | `582 KB` (`595,572 B`) | [Download Portable `.exe`](releases/v1.5.0/PS4-FTP-Fast-Portable-v1.5.0.exe?raw=true) | `EFB50EE41BD65C888F3AC6CF5F03BEB6D4C6FB4EF1DE1CD2B64315CC3560D22C` |
 | **Browser Auto-Catch Extension** | Brave / Chrome / Edge MV3 Auto-Catch (`v1.2.1`) | `2.2 KB` (`2,297 B`) | [Download Extension `.zip`](releases/v1.5.0/PS4-FTP-Fast-Browser-Extension-v1.2.1.zip?raw=true) | `4E6919B728B5B32E1E3AA2A7D02EF5F242E7740B369B823D13F502AD34247339` |
+| **Systems Research Paper (EN)** | 5-Page IEEE/USENIX-Style Empirical Paper by Narawit Suraphan (GPT-6.2 Astra · GPT-6.2 Sol · Gemini 4 Neon) | `448 KB` (`458,739 B`) | [Read / Download `.pdf`](paper/PS4_FTP_Fast_100GB_Systems_Research_EN.pdf) | `16BF00A6DA31F6DD127F012AE7345DD31D3DF41D966CB9BEF7F595CA9029F565` |
 
 * **Requirements:** Windows 10 / 11 (64-bit) with [.NET 10 Desktop Runtime (x64)](https://dotnet.microsoft.com/en-us/download/dotnet/10.0) · PS4 running GoldHEN FTP (default port `2121`).
 * **Checksum Manifest:** [CHECKSUMS.sha256](CHECKSUMS.sha256)
