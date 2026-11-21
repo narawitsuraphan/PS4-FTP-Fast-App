@@ -1,0 +1,12 @@
+*.exe binary
+*.zip binary
+*.png binary
+*.pdf binary
+*.ico binary
+*.md text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.js text eol=lf
+*.txt text eol=lf
+*.sha256 text eol=lf
+

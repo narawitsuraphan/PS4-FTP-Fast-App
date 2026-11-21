@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PS4 FTP Fast v1.5.0 — ดาวน์โหลดโปรแกรมส่งไฟล์ .pkg เข้า PS4 และเอนจินโหลด URL Adaptive v2.3 Hyper-Switch</title>
+  <meta name="description" content="PS4 FTP Fast v1.5.0 Crimson Carbon — เอนจิน Adaptive v2.3 Hyper-Switch ค้นหาสูงสุด 16 เซิร์ฟเวอร์ ซ้อน Top-6 เร็วกว่า IDM 7.5x และ aria2c 2.5x พร้อม Direct I/O 8 MiB สำหรับไฟล์ 100 GB+">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="top-rail" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#top" class="brand" aria-label="PS4 FTP Fast Home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M 2 15 L 8 9 L 12 13 L 22 3"/>
+            <path d="M 15 3 L 22 3 L 22 10"/>
+            <line x1="2" y1="20" x2="22" y2="20"/>
+          </svg>
+        </span>
+        <span class="brand-text">
+          <strong>PS4 FTP Fast</strong>
+          <small>CRIMSON CARBON // v1.5.0</small>
+        </span>
+      </a>
+
+      <nav class="main-nav" aria-label="Primary Navigation">
+        <a href="#downloads" data-i18n="navDownload">ดาวน์โหลด</a>
+        <a href="#features" data-i18n="navFeatures">สถาปัตยกรรม</a>
+        <a href="#guide" data-i18n="navGuide">วิธีติดตั้ง</a>
+        <a href="https://github.com/narawitsuraphan" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </nav>
+
+      <div class="header-actions">
+        <div class="lang-switch" role="group" aria-label="Language Selector">
+          <button type="button" class="lang-btn is-active" data-lang="th" aria-pressed="true">TH</button>
+          <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+        <a href="downloads/PS4-FTP-Fast-Setup-v1.5.0.exe" download class="btn btn-primary btn-sm" data-i18n="navGetApp">โหลดตัวติดตั้ง</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- HERO: Asymmetrical Hardware Workbench -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="release-tag">
+            <span class="pulse-dot" aria-hidden="true"></span>
+            <span data-i18n="heroBadge">RELEASE v1.5.0 · WINDOWS 10 / 11 x64 · .NET 10</span>
+          </div>
+
+          <h1 data-i18n="heroTitle">ส่งไฟล์เกม PS4 เต็มสปีดสาย LAN พร้อมโหลด URL สลับเซิร์ฟเวอร์อัตโนมัติ</h1>
+
+          <p class="hero-desc" data-i18n="heroDesc">
+            เอนจิน Adaptive v2.3 Hyper-Switch ค้นหาสูงสุด 16 เซิร์ฟเวอร์ผ่าน 6x DNS + Regional ECS ซ้อน Top-6 พร้อมกันและเขียนดิสก์แบบ Elevator — แรงกว่า IDM และ aria2c พร้อม Direct I/O 8 MiB สำหรับไฟล์ 100 GB+ และส่วนเสริมเบราว์เซอร์
+          </p>
+
+          <div class="hero-cta">
+            <a href="downloads/PS4-FTP-Fast-Setup-v1.5.0.exe" download class="btn btn-primary btn-lg">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M12 3v12m0 0l-4-4m4 4l4-4M4 19h16"/>
+              </svg>
+              <span data-i18n="ctaSetup">ดาวน์โหลดตัวติดตั้ง Setup (.exe)</span>
+              <span class="btn-meta">1.01 MB</span>
+            </a>
+            <a href="downloads/PS4-FTP-Fast-Portable-v1.5.0.exe" download class="btn btn-secondary btn-lg">
+              <span data-i18n="ctaPortable">รุ่นพกพา Portable (.exe)</span>
+              <span class="btn-meta">582 KB</span>
+            </a>
+          </div>
+
+          <ul class="trust-row">
+            <li data-i18n="trust1">ไม่ต้องใช้สิทธิ์ Admin (Per-User Install)</li>
+            <li data-i18n="trust2">จองพื้นที่ NTFS ต่อเนื่อง 1 ชิ้นไม่แตกไฟล์</li>
+            <li data-i18n="trust3">ตรวจสอบ SHA-256 ครบทุกไฟล์</li>
+          </ul>
+        </div>
+
+        <!-- Interactive Live App Showcase -->
+        <div class="hero-stage">
+          <div class="stage-frame">
+            <div class="stage-bar">
+              <div class="stage-live">
+                <span class="beacon" aria-hidden="true"></span>
+                <span class="mono-label">LIVE TELEMETRY PREVIEW</span>
+              </div>
+              <div class="bus-mini" aria-hidden="true">
+                <span class="bus-node">PC</span>
+                <span class="bus-track">
+                  <span class="bus-pkt p1"></span>
+                  <span class="bus-pkt p2"></span>
+                  <span class="bus-pkt p3"></span>
+                </span>
+                <span class="bus-node">PS4</span>
+              </div>
+              <span class="stage-speed mono-label" id="liveSpeedReadout">112.4 MB/s</span>
+            </div>
+
+            <div class="stage-viewport">
+              <img id="previewImg" src="assets/upload-live.png" alt="PS4 FTP Fast v1.3.0 Crimson Carbon Upload Cockpit" width="1160" height="800">
+            </div>
+
+            <div class="stage-tabs" role="tablist" aria-label="App Screen Preview">
+              <button type="button" class="stage-tab is-active" role="tab" aria-selected="true" data-src="assets/upload-live.png" data-i18n="tabUpload">หน้าส่งเข้า PS4</button>
+              <button type="button" class="stage-tab" role="tab" aria-selected="false" data-src="assets/downloads.png" data-i18n="tabDownloads">โหลด URL v2.2</button>
+              <button type="button" class="stage-tab" role="tab" aria-selected="false" data-src="assets/setup.png" data-i18n="tabSetup">ติดตั้งและระบบ</button>
+              <button type="button" class="stage-tab" role="tab" aria-selected="false" data-src="assets/welcome.png" data-i18n="tabWelcome">หน้าต้อนรับ</button>
+              <button type="button" class="stage-tab" role="tab" aria-selected="false" data-src="assets/splash.png" data-i18n="tabSplash">หน้าโหลดเข้าแอป</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BENCHMARK METRICS BAR -->
+    <section class="metrics-strip" aria-label="Verified Performance Telemetry">
+      <div class="container metrics-grid">
+        <div class="metric-cell">
+          <span class="metric-num">118.3 <small>MB/s</small></span>
+          <span class="metric-label" data-i18n="m1">ความเร็วสูงสุดส่งเข้า PS4 ผ่านสาย LAN (946 Mbps)</span>
+        </div>
+        <div class="metric-cell">
+          <span class="metric-num">95.1 <small>MB/s</small></span>
+          <span class="metric-label" data-i18n="m2">ความเร็วโหลด URL จริงผ่าน Adaptive v2.3 Hyper-Switch (760 Mbps)</span>
+        </div>
+        <div class="metric-cell">
+          <span class="metric-num">1 <small>Extent</small></span>
+          <span class="metric-label" data-i18n="m3">จองพื้นที่ดิสก์ต่อเนื่อง ไฟล์ไม่แตกชิ้นบน HDD</span>
+        </div>
+        <div class="metric-cell">
+          <span class="metric-num">16 <small>Edges</small></span>
+          <span class="metric-label" data-i18n="m4">ค้นหาและสลับเซิร์ฟเวอร์อัตโนมัติสูงสุด 16 แห่งพร้อม Top-6 Striping</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- DOWNLOAD MATRIX -->
+    <section id="downloads" class="section">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-index">01</span>
+          <div>
+            <h2 data-i18n="dlHeading">ดาวน์โหลดแพ็กเกจเวอร์ชันล่าสุด (v1.5.0)</h2>
+            <p class="section-sub" data-i18n="dlSub">เลือกดาวน์โหลดแบบตัวติดตั้งเต็มรูปแบบ รุ่นพกพา หรือไฟล์ส่วนเสริมเบราว์เซอร์ — พร้อมค่า SHA-256 ยืนยันความถูกต้อง</p>
+          </div>
+        </div>
+
+        <div class="dl-list">
+          <!-- Item 1: Setup Installer -->
+          <article class="dl-row dl-row-featured">
+            <div class="dl-info">
+              <div class="dl-title-line">
+                <h3>PS4 FTP Fast Setup</h3>
+                <span class="tag tag-crimson" data-i18n="tagRecommended">แนะนำ</span>
+                <span class="tag">v1.5.0 · Win x64</span>
+              </div>
+              <p data-i18n="dlSetupDesc">ตัวติดตั้ง GUI ธีมแดงดำครบชุด — ติดตั้งตัวแอปลงเครื่อง สร้างทางลัด Start Menu / Desktop เมนูคลิกขวา .pkg และลงทะเบียนส่วนเสริม Brave / Chrome / Edge อัตโนมัติ (ไม่ต้องใช้สิทธิ์ Admin)</p>
+              <div class="hash-row">
+                <span class="hash-label">SHA-256</span>
+                <code class="hash-val">E937D8536922F525A8A6462531D2E6F1774918CF44C662A4A3A836217546DEE5</code>
+                <button type="button" class="copy-btn" data-copy="E937D8536922F525A8A6462531D2E6F1774918CF44C662A4A3A836217546DEE5" data-i18n="copyBtn">คัดลอก</button>
+              </div>
+            </div>
+            <div class="dl-action">
+              <span class="file-size">1,037,976 bytes (1.01 MB)</span>
+              <a href="downloads/PS4-FTP-Fast-Setup-v1.5.0.exe" download class="btn btn-primary">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M12 3v12m0 0l-4-4m4 4l4-4M4 19h16"/>
+                </svg>
+                <span data-i18n="dlNow">ดาวน์โหลด .exe</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Item 2: Portable EXE -->
+          <article class="dl-row">
+            <div class="dl-info">
+              <div class="dl-title-line">
+                <h3>PS4 FTP Fast Portable</h3>
+                <span class="tag">Single File · Win x64</span>
+              </div>
+              <p data-i18n="dlPortableDesc">ไฟล์เดียวเปิดใช้งานได้ทันทีโดยไม่ต้องติดตั้ง เหมาะสำหรับพกใส่แฟลชไดรฟ์หรือเปิดใช้งานด่วน (ยังคงกดติดตั้งลงเครื่องภายหลังได้จากแท็บ "ติดตั้งและระบบ" ภายในแอป)</p>
+              <div class="hash-row">
+                <span class="hash-label">SHA-256</span>
+                <code class="hash-val">EFB50EE41BD65C888F3AC6CF5F03BEB6D4C6FB4EF1DE1CD2B64315CC3560D22C</code>
+                <button type="button" class="copy-btn" data-copy="EFB50EE41BD65C888F3AC6CF5F03BEB6D4C6FB4EF1DE1CD2B64315CC3560D22C" data-i18n="copyBtn">คัดลอก</button>
+              </div>
+            </div>
+            <div class="dl-action">
+              <span class="file-size">595,572 bytes (582 KB)</span>
+              <a href="downloads/PS4-FTP-Fast-Portable-v1.5.0.exe" download class="btn btn-secondary">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M12 3v12m0 0l-4-4m4 4l4-4M4 19h16"/>
+                </svg>
+                <span data-i18n="dlNow">ดาวน์โหลด .exe</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Item 3: Browser Extension ZIP -->
+          <article class="dl-row">
+            <div class="dl-info">
+              <div class="dl-title-line">
+                <h3>Browser Auto-Catch Extension</h3>
+                <span class="tag">v1.2.1 · Brave / Chrome / Edge</span>
+              </div>
+              <p data-i18n="dlExtDesc">ส่วนเสริมดักจับดาวน์โหลดอัตโนมัติสไตล์ IDM — จับไฟล์ .pkg และไฟล์ขนาด ≥ 10 MB จากปุ่มโหลด JavaScript (เช่น Mocha) ส่งเข้าคิว PS4 FTP Fast ทันที พร้อมปุ่มคลิกเปิด/ปิด ON-OFF</p>
+              <div class="hash-row">
+                <span class="hash-label">SHA-256</span>
+                <code class="hash-val">4E6919B728B5B32E1E3AA2A7D02EF5F242E7740B369B823D13F502AD34247339</code>
+                <button type="button" class="copy-btn" data-copy="4E6919B728B5B32E1E3AA2A7D02EF5F242E7740B369B823D13F502AD34247339" data-i18n="copyBtn">คัดลอก</button>
+              </div>
+            </div>
+            <div class="dl-action">
+              <span class="file-size">2,297 bytes (2.2 KB)</span>
+              <a href="downloads/PS4-FTP-Fast-Browser-Extension-v1.2.1.zip" download class="btn btn-secondary">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M12 3v12m0 0l-4-4m4 4l4-4M4 19h16"/>
+                </svg>
+                <span data-i18n="dlZip">ดาวน์โหลด .zip</span>
+              </a>
+            </div>
+          </article>
+        </div>
+
+        <p class="req-note" data-i18n="reqNote">
+          ความต้องการระบบ: Windows 10 / 11 (64-bit) และ .NET 10 Desktop Runtime (x64) · ใช้งานร่วมกับ GoldHEN FTP พอร์ต 2121 บน PS4
+        </p>
+      </div>
+    </section>
+
+    <!-- TECHNICAL ARCHITECTURE -->
+    <section id="features" class="section section-alt">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-index">02</span>
+          <div>
+            <h2 data-i18n="featHeading">วิศวกรรมเบื้องหลังความเร็ว</h2>
+            <p class="section-sub" data-i18n="featSub">ทุกส่วนสร้างจากผลวัดจริงทั้งฝั่งดิสก์ NTFS, Dual-Stack IPv4/IPv6 และสาย Gigabit LAN</p>
+          </div>
+        </div>
+
+        <div class="spec-grid">
+          <div class="spec-card">
+            <span class="spec-code">MOD // 01</span>
+            <h3 data-i18n="f1Title">เอนจินส่งไฟล์ PS4 ระดับ Gigabit + Cockpit สด</h3>
+            <p data-i18n="f1Desc">อ่านไฟล์ขนาด 100 GB+ ด้วย Direct I/O 8 MiB (FILE_FLAG_NO_BUFFERING) ริงบัฟเฟอร์ 64 MiB ไม่กินแรมแคช Windows พร้อม KeepAlive กันหลุดงานหลายชั่วโมง ตรวจจับลิงก์ 100 Mbps/Ping อัตโนมัติ และ Cockpit แดงดำสด</p>
+          </div>
+          <div class="spec-card">
+            <span class="spec-code">MOD // 02</span>
+            <h3 data-i18n="f2Title">Adaptive v2.3 Hyper-Switch (16 เซิร์ฟเวอร์ + Top-6)</h3>
+            <p data-i18n="f2Desc">ค้นหาเซิร์ฟเวอร์สูงสุด 16 แห่งแบบ Zero-Delay ผ่าน 6x UDP DNS + Regional ECS DoH ซ้อน Top-6 เซิร์ฟเวอร์เร็วสุดพร้อมกัน เขียนดิสก์แบบ Elevator 64 MiB ไม่บล็อกเน็ต — วัดจริงเร็วกว่า IDM 87% และ aria2c 26–153%</p>
+          </div>
+          <div class="spec-card">
+            <span class="spec-code">MOD // 03</span>
+            <h3 data-i18n="f3Title">เขียนลง HDD ไม่แตกชิ้น + Front-Frontier</h3>
+            <p data-i18n="f3Desc">จองพื้นที่ต่อเนื่องด้วย NTFS PreallocationSize และแจกช่วงดาวน์โหลดเรียงจากด้านหน้าไฟล์ ลดอาการ HDD หัวอ่านสะบัดและ zero-fill ค้าง ทำให้ไฟล์ที่โหลดเสร็จพร้อมส่งเข้า PS4 ได้เต็มความเร็วทันที</p>
+          </div>
+          <div class="spec-card">
+            <span class="spec-code">MOD // 04</span>
+            <h3 data-i18n="f4Title">ส่วนเสริมดักจับดาวน์โหลดเบราว์เซอร์แบบ IDM</h3>
+            <p data-i18n="f4Desc">ไม่ต้องหาลิงก์คัดลอกเองอีกต่อไป แค่กดโหลดใน Brave / Chrome / Edge ส่วนเสริมจะรับลิงก์ที่มี Token ส่งตรงเข้าคิว PS4 FTP Fast และเริ่มโหลดให้ทันที รองรับการกด "ดาวน์โหลดทั้งหมด" หลายไฟล์พร้อมกัน</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- QUICK SETUP GUIDE -->
+    <section id="guide" class="section">
+      <div class="container">
+        <div class="section-head">
+          <span class="section-index">03</span>
+          <div>
+            <h2 data-i18n="guideHeading">เริ่มใช้งานใน 3 ขั้นตอน</h2>
+            <p class="section-sub" data-i18n="guideSub">ตั้งค่าครั้งเดียว ใช้งานลื่นทั้งโหลดเกมจากเว็บและส่งเข้า PS4</p>
+          </div>
+        </div>
+
+        <ol class="steps-grid">
+          <li class="step-item">
+            <span class="step-num">STEP 01</span>
+            <h3 data-i18n="s1Title">รันตัวติดตั้ง Setup</h3>
+            <p data-i18n="s1Desc">เปิดไฟล์ PS4-FTP-Fast-Setup-v1.5.0.exe เลือกโฟลเดอร์เก็บไฟล์ดาวน์โหลด แล้วกดติดตั้ง — ใช้เวลาไม่ถึง 3 วินาที ไม่ต้องใช้สิทธิ์ Admin</p>
+          </li>
+          <li class="step-item">
+            <span class="step-num">STEP 02</span>
+            <h3 data-i18n="s2Title">เปิดส่วนเสริมใน Brave / Chrome / Edge</h3>
+            <p data-i18n="s2Desc">เปิดหน้า brave://extensions เปิด Developer mode กด Load unpacked แล้วเลือกโฟลเดอร์ browser-extension (กดปุ่ม "เปิดโฟลเดอร์ส่วนเสริม" ในแอปได้เลย) และปิด IDM ชั่วคราวไม่ให้แย่งจับลิงก์</p>
+          </li>
+          <li class="step-item">
+            <span class="step-num">STEP 03</span>
+            <h3 data-i18n="s3Title">โหลดเกมและส่งเข้า PS4</h3>
+            <p data-i18n="s3Desc">คลิกโหลดเกมจากหน้าเว็บตามปกติ ตัวแอปจะโหลดให้เต็มสปีดอัตโนมัติ เสร็จแล้วกด "ส่งเข้า PS4" ระบุ IP และพอร์ต 2121 ของ GoldHEN ได้ทันที</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span class="mono-label">PS4 FTP Fast v1.5.0 · Developed by Narawit Suraphan</span>
+      <div class="footer-links">
+        <a href="#downloads" data-i18n="navDownload">ดาวน์โหลด</a>
+        <a href="https://github.com/narawitsuraphan" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
+

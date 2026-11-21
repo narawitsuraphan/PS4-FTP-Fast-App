@@ -1,0 +1,32 @@
+PS4 FTP Fast — Binary Distribution License (Freeware, All Rights Reserved)
+
+Copyright (c) 2026 Narawit Suraphan (https://github.com/narawitsuraphan).
+All rights reserved.
+
+1. Grant of Use
+   You are granted a free, non-exclusive, non-transferable license to download,
+   install, and execute the compiled binary executables ("PS4 FTP Fast.exe",
+   "PS4 FTP Fast Setup.exe", and the accompanying Browser Extension package)
+   for personal and non-commercial use.
+
+2. Source Code Not Included
+   This repository distributes prebuilt release binaries, documentation, and
+   empirical research artifacts only. The underlying source code remains the
+   exclusive intellectual property of Narawit Suraphan and is not licensed or
+   distributed under any open-source license.
+
+3. Restrictions
+   You may not:
+   - Decompile, disassemble, reverse engineer, or attempt to derive the source
+     code of the compiled binaries, except to the extent expressly permitted by
+     applicable law.
+   - Repackage, rebrand, sell, or redistribute modified versions of the
+     executables without prior written permission from the author.
+
+4. Disclaimer of Warranty
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+   AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM THE
+   USE OF THE SOFTWARE.
+

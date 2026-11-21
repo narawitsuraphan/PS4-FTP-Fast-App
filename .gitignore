@@ -1,0 +1,22 @@
+# Guardrail: NEVER accidentally commit proprietary source code or build artifacts into this public release repo!
+src/
+tools/
+tests/
+*.cs
+*.xaml
+*.csproj
+*.sln
+*.pdb
+*.user
+*.suo
+bin/
+obj/
+*.log
+*.tmp
+*.part
+*.pkg
+.vs/
+.vscode/
+Thumbs.db
+desktop.ini
+
